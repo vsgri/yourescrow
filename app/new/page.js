@@ -2,10 +2,10 @@
 
 import { Button, Headline, Input, LargeTitle, List, Select, Subheadline, Textarea } from "@telegram-apps/telegram-ui";
 import { SectionHeader } from "@telegram-apps/telegram-ui/dist/components/Blocks/Section/components/SectionHeader/SectionHeader";
-import { useMainButton } from "@tma.js/sdk-react";
+// import { useMainButton } from "@tma.js/sdk-react";
 
 export default function Page() {
-  const mainButton = useMainButton();
+  // const mainButton = useMainButton();
 
   return (
     <main className="h-full w-full">
