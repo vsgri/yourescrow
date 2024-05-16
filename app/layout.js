@@ -10,6 +10,9 @@ import { AppRoot } from "@telegram-apps/telegram-ui";
 export default function Layout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <script src="https://telegram.org/js/telegram-web-app.js"></script>
+      </head>
       <body className="h-screen w-screen">
         <SDKProvider>
           <TonConnectUIProvider manifestUrl="https://dns.ton.org/tonconnect-manifest.json">
