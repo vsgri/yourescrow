@@ -13,14 +13,12 @@ export default function Layout({ children }) {
       <head>
         <script src="https://telegram.org/js/telegram-web-app.js"></script>
       </head>
-      <body className="h-screen w-screen">
-        <SDKProvider>
+      <body className="h-screen w-screen
           <TonConnectUIProvider manifestUrl="https://dns.ton.org/tonconnect-manifest.json">
             <AppRoot className="h-full w-full">
               {children}
             </AppRoot>
           </TonConnectUIProvider>
-        </SDKProvider>
       </body>
     </html>
   );
